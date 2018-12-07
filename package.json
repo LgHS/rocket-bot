@@ -1,0 +1,23 @@
+{
+  "name": "rocket-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LgHS/rocket-bot.git"
+  },
+  "author": "Duman Haydar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LgHS/rocket-bot/issues"
+  },
+  "homepage": "https://github.com/LgHS/rocket-bot#readme",
+  "dependencies": {
+    "@rocket.chat/sdk": "^0.2.9",
+    "delay": "^4.1.0"
+  }
+}
