@@ -20,7 +20,8 @@
   "homepage": "https://github.com/LgHS/rocket-bot#readme",
   "dependencies": {
     "@rocket.chat/sdk": "^0.2.9",
-    "delay": "^4.1.0"
+    "delay": "^4.1.0",
+    "telegraf": "^3.25.5"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
