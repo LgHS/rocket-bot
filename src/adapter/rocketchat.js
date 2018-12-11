@@ -1,8 +1,8 @@
 import * as rocketChat from '@rocket.chat/sdk';
 const rocketchatDriver = rocketChat.driver;
-import * as config from './config';
+import * as config from '../config';
 
-class rocketchatAdapter {
+class rocketchat {
   constructor() {
     this.driver = rocketchatDriver;
     this.myuserid;
@@ -47,5 +47,5 @@ class rocketchatAdapter {
 }
 
 export {
-  rocketchatAdapter
+  rocketchat
 }
